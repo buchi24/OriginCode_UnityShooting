@@ -38,7 +38,6 @@ public class CanvasScript : MonoBehaviour {
 	///
 	/// 毎フレーム呼ばれる関数（メソッド)
 	///
-	private float debugCount = 0;
 	void Update () {
 		for(int i = 0; i < kinkeis.Length; i++) {
 			Vector3 pos = kinkeis[i].transform.position;
